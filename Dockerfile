@@ -2,8 +2,11 @@
 FROM ubuntu:latest
 
 RUN apt update
-RUN apt install python3 -y
-RUN which python3
+RUN apt install texlive-latex-base -y
+RUN apt install texlive-fonts-recommended -y
+RUN apt install texlive-fonts-extra -y
+RUN apt install texlive-latex-extra -y
+
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
