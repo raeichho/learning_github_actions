@@ -1,1 +1,140 @@
+:root {
+  /* Set sans-serif & mono fonts */
+  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
+    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
+    "Helvetica Neue", sans-serif;
+  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --standard-border-radius: 5px;
 
+  /* Default (light) theme */
+  --bg: #fff;
+  --accent-bg: #f5f7ff;
+  --text: #212121;
+  --text-light: #585858;
+  --border: #898EA4;
+  --accent: #0d47a1;
+  --accent-hover: #1266e2;
+  --accent-text: var(--bg);
+  --code: #d81b60;
+  --preformatted: #444;
+  --marked: #ffdd33;
+  --disabled: #efefef;
+}
+
+html {
+  /* Set the font globally */
+  font-family: var(--sans-font);
+  scroll-behavior: smooth;
+}
+
+
+
+
+body {
+  color: var(--text);
+  background-color: var(--bg);
+  font-size: 1.15rem;
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 1fr min(45rem, 90%) 1fr;
+  margin: 0;
+  min-height: 100vh;
+  
+}
+body > * {
+  grid-column: 2;
+}
+
+.ltx_p, .ltx_para{
+  text-indent: 0em !important;
+}
+
+header{
+  display:none;
+}
+
+footer{
+  display: none;
+}
+
+.ltx_toclist_document{
+  padding: 0;
+}
+
+article.ltx_document > .ltx_para > p{
+  padding: 0;
+  text-align: justify;
+}
+
+.ltx_document > .ltx_TOC{
+  text-align: left;
+}
+
+.ltx_subsubsection {
+  visibility: hidden;
+}
+
+.ltx_page_main {
+  padding: 0;
+}
+
+ol.ltx_toclist_document{
+  margin-top: 1.7em;
+}
+
+ol.ltx_toclist_document > .ltx_tocentry {
+  border-left: solid;
+  border-width: thin;
+  border-color: orange;
+}
+
+
+ol.ltx_toclist_document > .ltx_tocentry > .ltx_ref{
+  text-decoration: none;
+  display: block;
+  color: black;
+  margin-left: 1em;
+}
+
+ol.ltx_toclist_document > .ltx_tocentry > .ltx_ref:visited{
+  color: black;
+}
+
+ol.ltx_toclist_document > .ltx_tocentry > .ltx_ref:hover{
+  color: orange;
+}
+
+ol.ltx_toclist_document > .ltx_tocentry > .ltx_ref:active{
+  color: orange;
+}
+
+
+.ltx_page_navbar > .ltx_TOC{
+  display: none;
+}
+
+
+button {
+  font: inherit;
+}
+
+.solution_button{
+  width: 100%;
+  background-color: transparent;
+}
+
+.ltx_page_navbar > a{
+  color:orange;
+}
+
+button.unvisited{
+  background:#ffa50085;
+}
+
+button.active{
+  background:#00a7009e;
+}
+
+button.done{
+  background:none;
+}
