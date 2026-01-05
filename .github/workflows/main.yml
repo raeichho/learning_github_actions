@@ -34,6 +34,8 @@ jobs:
         run: |
           #latexml --dest=doc.xml article
           #latexmlpost doc --dest=docs/index.html --linelength=20 --splitat=subsection
+          rm -r docs/*
+          rm -r docs/.*
           latexml --dest=doc.xml article
           latexmlpost doc --dest=docs/index.html --linelength=20 --splitat=section --css=src/custom_css.css --javascript=src/custom_js.js --navigationtoc=context
 
