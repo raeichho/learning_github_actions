@@ -128,11 +128,11 @@ button {
 }
 
 button.unvisited{
-  background:orange;
+  background:#ffa50085;
 }
 
 button.active{
-  background:green;
+  background:#00a7009e;
 }
 
 button.done{
