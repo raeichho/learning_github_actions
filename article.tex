@@ -1,31 +1,107 @@
 % This is a simple sample document.  For more complicated documents take a look in the exercise tab. Note that everything that comes after a % symbol is treated as comment and ignored when the code is compiled.
 
-\documentclass{article} % \documentclass{} is the first command in any LaTeX code.  It is used to define what kind of document you are creating such as an article or a book, and begins th document preamble
+\documentclass{article} % \documentclass{} is the first command in any LaTeX code.  It is used to define what kind of document you are creating such as an article or a book, and begins the document preamble
 
 \usepackage{amsmath} % \usepackage is a command that allows you to add functionality to your LaTeX code
+\usepackage{latexml}
 
-\title{Simple Sample} % Sets article title
-\author{My Name} % Sets authors name
-\date{\today} % Sets date for date compiled
+\title{\textit{STOCHASTISCHE} RECHENÜBUNGEN} % Sets article title
+%\author{My Name} % Sets authors name
+%\date{\today} % Sets date for date compiled
 
 % The preamble ends with the command \begin{document}
 \begin{document} % All begin commands must be paired with an end command somewhere
-    \maketitle % creates title using information in preamble (title, author, date)
     
-    \section{Hello World!} % creates a secti
+    \maketitle % creates title using information in preamble (title, author, date)
+    \textit{Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.}
+    
+    \section*{Endliche Wahrscheinlichkeitsräume} % creates a section
+    
+    
+    Hier könnte ein kleiner Wiederholungstext mit Definitionen und den wichtigsten Sätzen stehen.
+    Today I am learning \LaTeX.
+    \LaTeX{} is a great program for writing math. I can write in line math such as $a^2+b^2=c^2$ %$ tells LaTexX to compile as math
+     . I can also give equations their own space: 
+    \begin{equation*} % Creates an equation environment and is compiled as math
+    \gamma^2+\theta^2=\omega^2=\sum_{i=1}^N \sum_{j=2}^K G^{M,N} (f(x)-f(y)) = -\frac{1}{10}k
+    \end{equation*}
+    If I do not leave any blank lines \LaTeX{} will continue  this text without making it into a new paragraph.  Notice how there was no indentation in the text after equation (1).  
+    Also notice how even though I hit enter after that sentence and here $\downarrow$
+    \LaTeX{} formats the sentence without any break.  Also   look  how      it   doesn't     matter          how    many  spaces     I put     between       my    words.
+    
+    \subsection*{Aufgabe: Urnen}
+    Betrachten Sie eine Urne mit 8 Kugeln, nummeriert von 1 bis 8.
+    Ziehe zufällig eine Kugel. Sei $\Omega$ die Menge der möglichen Ergebnisse.
+    Definiere Ereignisse $A = \{\text{Ergebnis ist mindestens 5}\}$ , $B = \{\text{Ergebnis ist höchstens 7}\}$ , $C = \{\text{Ergebnis ist ungerade}\}$.
+    Geben Sie die folgenden Ereignisse durch Auflisten ihrer Elemente an: a) $\Omega$, b) $A \cap B$, c) $B \cup C$.
 
+    \subsubsection*{a)}
+    Lösung zur ersten Teilaufgabe hier.
+    \begin{equation*}
+     A = ...
+    \end{equation*}
+
+
+    \subsubsection*{b)}
+    Using equation ... we get that la la la 
+
+    \subsubsection*{c)}
+    Noch eine weitere Lösung einer Teilaufgabe.
+
+    
+    \subsection*{Aufgabe: technische Defekte}
+    Ein technisches Gerät besteht aus n verschiedenen Komponenten, nummeriert mit $i =
+    1, . . . , n$. Es bezeichne $D_i$ das Ereignis, dass die $i$-te Komponente defekt ist. Stellen Sie
+    die folgenden Ereignisse mittels elementarer Mengenoperationen dar: a) mindestens eine
+    Komponente defekt, b) genau eine Komponente defekt, c) höchstens eine Komponente
+    defekt, d) höchstens eine Komponente nicht defekt.
+
+    \subsubsection*{a)}
+    \begin{equation*}
+     A = ...
+    \end{equation*}
+
+    \subsubsection*{b)}
+    \begin{equation*}
+     B = ...
+    \end{equation*}
+
+    \subsubsection*{c)}
+    \begin{equation*}
+     C = ...
+    \end{equation*}
+
+    \subsubsection*{d)}
+    \begin{equation*}
+     D = ...
+    \end{equation*}
+
+
+    \section*{Bedingte Wahrscheinlichkeit und Unabhängigkeit} % creates a section
     
     \textbf{Hello World!} Today I am learning \LaTeX. %notice how the command will end at the first non-alphabet charecter such as the . after \LaTeX
      \LaTeX{} is a great program for writing math. I can write in line math such as $a^2+b^2=c^2$ %$ tells LaTexX to compile as math
-     . I can also give equations their own space:
-    \begin{equation} % Creates an equation environment and is compiled as math
-    \gamma^2+\theta^2=\omega^2
-    \end{equation}
+     . I can also give equations their own space: 
+    \begin{equation*} % Creates an equation environment and is compiled as math
+    \gamma^2+\theta^2=\omega^2=\sum_{i=1}^N \sum_{j=2}^K G^{M,N} (f(x)-f(y)) = -\frac{1}{10}k
+    \end{equation*}
     If I do not leave any blank lines \LaTeX{} will continue  this text without making it into a new paragraph.  Notice how there was no indentation in the text after equation (1).  
     Also notice how even though I hit enter after that sentence and here $\downarrow$
      \LaTeX{} formats the sentence without any break.  Also   look  how      it   doesn't     matter          how    many  spaces     I put     between       my    words.
-    . 
+    
+    \paragraph{Test Paragraph}\lxAddClass{sometstclass}
+    This will be a test paragraph.
 
-    Test.
+    \section*{Diskrete Zufallsvariablen und Verteilungen}
+
+    \section*{Gemeinsame Verteilung, Unabhängigkeit von Zufallsvariablen}
+
+    \section*{Kenngrößen für Zufallsvariablen}
+
+    \section*{Zufallsvariablen mit Dichte}
+
+    \section*{Grenzwertsätze}
+
 
 \end{document} % This is the end of the document
+
