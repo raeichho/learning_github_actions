@@ -2,7 +2,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <title>Endliche Wahrscheinlichkeitsräume ‣ STOCHASTISCHE RECHENÜBUNGEN</title>
-<!--Generated on Mon Jan  5 10:01:48 2026 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<!--Generated on Mon Jan  5 10:16:00 2026 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
 
 <link rel="stylesheet" href="LaTeXML.css" type="text/css">
 <link rel="stylesheet" href="ltx-article.css" type="text/css">
@@ -12,21 +12,30 @@
 <link rel="up" href="./" title="STOCHASTISCHE RECHENÜBUNGEN">
 <link rel="start" href="./" title="STOCHASTISCHE RECHENÜBUNGEN">
 <link rel="prev" href="./" title="STOCHASTISCHE RECHENÜBUNGEN">
-<link rel="next" href="Sx1.SSx1.html" title="Aufgabe: Urnen ‣ Endliche Wahrscheinlichkeitsräume ‣ STOCHASTISCHE RECHENÜBUNGEN">
+<link rel="next" href="Sx2.html" title="Bedingte Wahrscheinlichkeit und Unabhängigkeit ‣ STOCHASTISCHE RECHENÜBUNGEN">
 <link rel="section" href="Sx2.html" title="Bedingte Wahrscheinlichkeit und Unabhängigkeit ‣ STOCHASTISCHE RECHENÜBUNGEN">
 <link rel="section" href="Sx3.html" title="Diskrete Zufallsvariablen und Verteilungen ‣ STOCHASTISCHE RECHENÜBUNGEN">
 <link rel="section" href="Sx4.html" title="Gemeinsame Verteilung, Unabhängigkeit von Zufallsvariablen ‣ STOCHASTISCHE RECHENÜBUNGEN">
 <link rel="section" href="Sx5.html" title="Kenngrößen für Zufallsvariablen ‣ STOCHASTISCHE RECHENÜBUNGEN">
 <link rel="section" href="Sx6.html" title="Zufallsvariablen mit Dichte ‣ STOCHASTISCHE RECHENÜBUNGEN">
 <link rel="section" href="Sx7.html" title="Grenzwertsätze ‣ STOCHASTISCHE RECHENÜBUNGEN">
-<link rel="subsection" href="Sx1.SSx1.html" title="Aufgabe: Urnen ‣ Endliche Wahrscheinlichkeitsräume ‣ STOCHASTISCHE RECHENÜBUNGEN">
-<link rel="subsection" href="Sx1.SSx2.html" title="Aufgabe: technische Defekte ‣ Endliche Wahrscheinlichkeitsräume ‣ STOCHASTISCHE RECHENÜBUNGEN">
 </head>
 <body>
+<nav class="ltx_page_navbar"><a href="./" title="" class="ltx_ref" rel="start"><span class="ltx_text ltx_ref_title"><span class="ltx_text ltx_font_italic">STOCHASTISCHE</span> RECHENÜBUNGEN</span></a>
+<nav class="ltx_TOC">
+<ol class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_section"><a href="Sx2.html" title="In STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref"><span class="ltx_text ltx_ref_title">Bedingte Wahrscheinlichkeit und Unabhängigkeit</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="Sx3.html" title="In STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref"><span class="ltx_text ltx_ref_title">Diskrete Zufallsvariablen und Verteilungen</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="Sx4.html" title="In STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref"><span class="ltx_text ltx_ref_title">Gemeinsame Verteilung, Unabhängigkeit von Zufallsvariablen</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="Sx5.html" title="In STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref"><span class="ltx_text ltx_ref_title">Kenngrößen für Zufallsvariablen</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="Sx6.html" title="In STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref"><span class="ltx_text ltx_ref_title">Zufallsvariablen mit Dichte</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="Sx7.html" title="In STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref"><span class="ltx_text ltx_ref_title">Grenzwertsätze</span></a></li>
+</ol></nav>
+</nav>
 <div class="ltx_page_main">
 <header class="ltx_page_header">
 <div class="ltx_align_center">
-<a href="./" title="" class="ltx_ref" rel="up"><span class="ltx_text ltx_ref_title"><span class="ltx_text ltx_font_italic">STOCHASTISCHE</span> RECHENÜBUNGEN</span></a><a href="./" title="" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title"><span class="ltx_text ltx_font_italic">STOCHASTISCHE</span> RECHENÜBUNGEN</span></a><a href="Sx1.SSx1.html" title="In Endliche Wahrscheinlichkeitsräume ‣ STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title">Aufgabe: Urnen</span></a>
+<a href="./" title="" class="ltx_ref" rel="up"><span class="ltx_text ltx_ref_title"><span class="ltx_text ltx_font_italic">STOCHASTISCHE</span> RECHENÜBUNGEN</span></a><a href="./" title="" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title"><span class="ltx_text ltx_font_italic">STOCHASTISCHE</span> RECHENÜBUNGEN</span></a><a href="Sx2.html" title="In STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title">Bedingte Wahrscheinlichkeit und Unabhängigkeit</span></a>
 </div></header>
 <div class="ltx_page_content">
 <section class="ltx_section ltx_authors_1line">
@@ -49,21 +58,118 @@ Today I am learning <span class="ltx_text ltx_LaTeX_logo" style="letter-spacing:
 Also notice how even though I hit enter after that sentence and here <math id="p1.m2" class="ltx_Math" alttext="\downarrow" display="inline"><mo stretchy="false">↓</mo></math>
 <span class="ltx_text ltx_LaTeX_logo" style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_text" style="position:relative; bottom:0.4ex;font-variant:small-caps;;">a</span>T<span class="ltx_text" style="position:relative; bottom:-0.2ex;font-variant:small-caps;font-size:120%;">e</span>X</span> formats the sentence without any break. Also look how it doesn’t matter how many spaces I put between my words.</p>
 </div>
-<nav class="ltx_TOC">
-<ol class="ltx_toclist ltx_toclist_section">
-<li class="ltx_tocentry"><a href="Sx1.SSx1.html" title="In Endliche Wahrscheinlichkeitsräume ‣ STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref"><span class="ltx_text ltx_ref_title">Aufgabe: Urnen</span></a></li>
-</ol></nav>
-<nav class="ltx_TOC">
-<ol class="ltx_toclist ltx_toclist_section">
-<li class="ltx_tocentry"><a href="Sx1.SSx2.html" title="In Endliche Wahrscheinlichkeitsräume ‣ STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref"><span class="ltx_text ltx_ref_title">Aufgabe: technische Defekte</span></a></li>
-</ol></nav>
+<section id="SSx1" class="ltx_subsection">
+<h2 class="ltx_title ltx_title_subsection">Aufgabe: Urnen</h2>
+
+<div id="SSx1.p1" class="ltx_para">
+<p class="ltx_p">Betrachten Sie eine Urne mit 8 Kugeln, nummeriert von 1 bis 8.
+Ziehe zufällig eine Kugel. Sei <math id="SSx1.p1.m1" class="ltx_Math" alttext="\Omega" display="inline"><mi mathvariant="normal">Ω</mi></math> die Menge der möglichen Ergebnisse.
+Definiere Ereignisse <math id="SSx1.p1.m2" class="ltx_Math" alttext="A=\{\text{Ergebnis ist mindestens 5}\}" display="inline"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy="false">{</mo><mtext>Ergebnis ist mindestens 5</mtext><mo stretchy="false">}</mo></mrow></mrow></math> , <math id="SSx1.p1.m3" class="ltx_Math" alttext="B=\{\text{Ergebnis ist höchstens 7}\}" display="inline"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy="false">{</mo><mtext>Ergebnis ist höchstens 7</mtext><mo stretchy="false">}</mo></mrow></mrow></math> , <math id="SSx1.p1.m4" class="ltx_Math" alttext="C=\{\text{Ergebnis ist ungerade}\}" display="inline"><mrow><mi>C</mi><mo>=</mo><mrow><mo stretchy="false">{</mo><mtext>Ergebnis ist ungerade</mtext><mo stretchy="false">}</mo></mrow></mrow></math>.
+Geben Sie die folgenden Ereignisse durch Auflisten ihrer Elemente an: a) <math id="SSx1.p1.m5" class="ltx_Math" alttext="\Omega" display="inline"><mi mathvariant="normal">Ω</mi></math>, b) <math id="SSx1.p1.m6" class="ltx_Math" alttext="A\cap B" display="inline"><mrow><mi>A</mi><mo>∩</mo><mi>B</mi></mrow></math>, c) <math id="SSx1.p1.m7" class="ltx_Math" alttext="B\cup C" display="inline"><mrow><mi>B</mi><mo>∪</mo><mi>C</mi></mrow></math>.</p>
+</div>
+<section id="SSx1.SSSx1" class="ltx_subsubsection">
+<h3 class="ltx_title ltx_title_subsubsection">a)</h3>
+
+<div id="SSx1.SSSx1.p1" class="ltx_para">
+<p class="ltx_p">Lösung zur ersten Teilaufgabe hier.</p>
+<table id="Ex2" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="Ex2.m1" class="ltx_Math" alttext="A=..." display="block"><mrow><mi>A</mi><mo>=</mo><mi mathvariant="normal">…</mi></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</section>
+<section id="SSx1.SSSx2" class="ltx_subsubsection">
+<h3 class="ltx_title ltx_title_subsubsection">b)</h3>
+
+<div id="SSx1.SSSx2.p1" class="ltx_para">
+<p class="ltx_p">Using equation … we get that la la la</p>
+</div>
+</section>
+<section id="SSx1.SSSx3" class="ltx_subsubsection">
+<h3 class="ltx_title ltx_title_subsubsection">c)</h3>
+
+<div id="SSx1.SSSx3.p1" class="ltx_para">
+<p class="ltx_p">Noch eine weitere Lösung einer Teilaufgabe.</p>
+</div>
+</section>
+</section>
+<section id="SSx2" class="ltx_subsection">
+<h2 class="ltx_title ltx_title_subsection">Aufgabe: technische Defekte</h2>
+
+<div id="SSx2.p1" class="ltx_para">
+<p class="ltx_p">Ein technisches Gerät besteht aus n verschiedenen Komponenten, nummeriert mit <math id="SSx2.p1.m1" class="ltx_Math" alttext="i=1,...,n" display="inline"><mrow><mi>i</mi><mo>=</mo><mrow><mn>1</mn><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><mi>n</mi></mrow></mrow></math>. Es bezeichne <math id="SSx2.p1.m2" class="ltx_Math" alttext="D_{i}" display="inline"><msub><mi>D</mi><mi>i</mi></msub></math> das Ereignis, dass die <math id="SSx2.p1.m3" class="ltx_Math" alttext="i" display="inline"><mi>i</mi></math>-te Komponente defekt ist. Stellen Sie
+die folgenden Ereignisse mittels elementarer Mengenoperationen dar: a) mindestens eine
+Komponente defekt, b) genau eine Komponente defekt, c) höchstens eine Komponente
+defekt, d) höchstens eine Komponente nicht defekt.</p>
+</div>
+<section id="SSx2.SSSx1" class="ltx_subsubsection">
+<h3 class="ltx_title ltx_title_subsubsection">a)</h3>
+
+<div id="SSx2.SSSx1.p1" class="ltx_para">
+<table id="Ex3" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="Ex3.m1" class="ltx_Math" alttext="A=..." display="block"><mrow><mi>A</mi><mo>=</mo><mi mathvariant="normal">…</mi></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</section>
+<section id="SSx2.SSSx2" class="ltx_subsubsection">
+<h3 class="ltx_title ltx_title_subsubsection">b)</h3>
+
+<div id="SSx2.SSSx2.p1" class="ltx_para">
+<table id="Ex4" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="Ex4.m1" class="ltx_Math" alttext="B=..." display="block"><mrow><mi>B</mi><mo>=</mo><mi mathvariant="normal">…</mi></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</section>
+<section id="SSx2.SSSx3" class="ltx_subsubsection">
+<h3 class="ltx_title ltx_title_subsubsection">c)</h3>
+
+<div id="SSx2.SSSx3.p1" class="ltx_para">
+<table id="Ex5" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="Ex5.m1" class="ltx_Math" alttext="C=..." display="block"><mrow><mi>C</mi><mo>=</mo><mi mathvariant="normal">…</mi></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</section>
+<section id="SSx2.SSSx4" class="ltx_subsubsection">
+<h3 class="ltx_title ltx_title_subsubsection">d)</h3>
+
+<div id="SSx2.SSSx4.p1" class="ltx_para">
+<table id="Ex6" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="Ex6.m1" class="ltx_Math" alttext="D=..." display="block"><mrow><mi>D</mi><mo>=</mo><mi mathvariant="normal">…</mi></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</section>
+</section>
 </section>
 </div>
 <footer class="ltx_page_footer">
 <div class="ltx_align_center">
-<a href="./" title="" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title"><span class="ltx_text ltx_font_italic">STOCHASTISCHE</span> RECHENÜBUNGEN</span></a><a href="Sx1.SSx1.html" title="In Endliche Wahrscheinlichkeitsräume ‣ STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title">Aufgabe: Urnen</span></a>
+<a href="./" title="" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title"><span class="ltx_text ltx_font_italic">STOCHASTISCHE</span> RECHENÜBUNGEN</span></a><a href="Sx2.html" title="In STOCHASTISCHE RECHENÜBUNGEN" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title">Bedingte Wahrscheinlichkeit und Unabhängigkeit</span></a>
 </div>
-<div class="ltx_page_logo">Generated  on Mon Jan  5 10:01:48 2026 by <a href="http://dlmf.nist.gov/LaTeXML/" class="ltx_LaTeXML_logo"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="Mascot Sammy"></a>
+<div class="ltx_page_logo">Generated  on Mon Jan  5 10:16:00 2026 by <a href="http://dlmf.nist.gov/LaTeXML/" class="ltx_LaTeXML_logo"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="Mascot Sammy"></a>
 </div></footer>
 </div>
 </body>
