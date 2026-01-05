@@ -32,8 +32,11 @@ jobs:
       
       - name: Compile xml document
         run: |
+          #latexml --dest=doc.xml article
+          #latexmlpost doc --dest=docs/index.html --linelength=20 --splitat=subsection
           latexml --dest=doc.xml article
-          latexmlpost doc --dest=docs/index.html --linelength=20 --splitat=subsection
+          latexmlpost doc --dest=docs/index.html --linelength=20 --splitat=subsection --css=custom_style.css -javascript=custom_js.js
+
 
 
       - name: Commit xml
