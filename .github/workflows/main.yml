@@ -17,18 +17,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install TeX Live (pdflatex)
-        run: |
-          sudo apt update
-          sudo apt install -y texlive-latex-base texlive-latex-recommended texlive-latex-extra
+#      - name: Install TeX Live (pdflatex)
+#        run: |
+#          sudo apt update
+#          sudo apt install -y texlive-latex-base texlive-latex-recommended texlive-latex-extra
 
       - name: Install latexml
         run: |
           sudo apt install -y latexml
 
-      - name: Compile LaTeX document
-        run: |
-          pdflatex -interaction=nonstopmode article.tex
+#      - name: Compile LaTeX document
+#        run: |
+#          pdflatex -interaction=nonstopmode article.tex
       
       - name: Compile xml document
         run: |
